@@ -67,7 +67,7 @@
             let formData = new FormData();
             formData.append("file", fileInput.files[0]);
 
-            fetch("http://127.0.0.1:5000/upload", {
+            fetch("https://web-production-9a3f.up.railway.app/upload", {
                 method: "POST",
                 body: formData
             })
